@@ -912,14 +912,14 @@ h3 {
 @media (max-width: 767px) {
   /* line 32, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
   .header-area .main-header-area .logo img {
-    width: 10%;
+    width: 30%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 32, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
   .header-area .main-header-area .logo img {
-    width: 10%;
+    width: 30%;
   }
 }
 
