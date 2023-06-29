@@ -2,7 +2,7 @@
 var can = document.getElementById("myCanVas");
 var myCan = can.getContext("2d");
 var img = new Image();
-img.src = "../img/bg.jpg";
+img.src = "https://muzihuaner.gitee.io/shssedu/img/bg.jpg";
 img.onload = function () {
 	myCan.drawImage(img, 0, 0, 600, 843);
 }
@@ -61,19 +61,19 @@ function drawText(t, x, y, w) {
 }
 setTimeout(function () {
 	var imgt = new Image();
-	imgt.src = "../img/seal.svg";
+	imgt.src = "https://muzihuaner.gitee.io/shssedu/img/seal.svg";
 
 	imgt.onload = function () {
 		myCan.drawImage(imgt, 400, 600, 100, 100);
 	}
     var imgt2 = new Image();
-	imgt2.src = "../img/logo.jpg";
+	imgt2.src = "https://muzihuaner.gitee.io/shssedu/img/logo.jpg";
 
 	imgt2.onload = function () {
 		myCan.drawImage(imgt2, 60, 130, 100, 100);
 	}
     var imgt3 = new Image();
-	imgt3.src = "../img/ws.svg";
+	imgt3.src = "https://muzihuaner.gitee.io/shssedu/img/ws.svg";
 
 	imgt3.onload = function () {
 		myCan.drawImage(imgt3, 60, 600, 100, 100);
